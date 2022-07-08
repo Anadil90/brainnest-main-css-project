@@ -71,11 +71,12 @@ div .jumbotron {
 
 div .ui.inverted.segment {
     background-color: #3882f6;
-    width: 60em;
+    width: 60%;
 }
 
-div #text-container {
-    width: 60%;
+div, .text-container {
+    width: 100%;
+    text-align: justify;
 }
 
 div .btn-primary {
@@ -84,5 +85,17 @@ div .btn-primary {
 
 div .ui.inverted.blue.button {
     float: right;
-    margin-bottom: 20px;
+    width: fit-content;
+    margin: 5vh auto;
+}
+
+.text {
+    margin-left: 40px;
+}
+
+footer {
+    width: 100%;
+    background-color: #1f2937;
+    height: 100px;
+    text-align: center;
 }
