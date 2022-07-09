@@ -13,9 +13,20 @@ div {
     text-align: center;
 }
 
+#website-title {
+    width: 70%;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0 auto;
+    text-align: left;
+}
+
 #website-desc {
     width: 70%;
     margin: 0 auto;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 div .col-md-6 {
@@ -24,14 +35,21 @@ div .col-md-6 {
 
 .nav .navbar-default {
     background-color: disabled;
+    height: 60px;
+}
+
+.navbar-header {
+    width: max-content;
 }
 
 .navbar .navbar-brand {
-    color: #fff;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .links-right {
-    color: #fff;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header-content-right {
@@ -49,6 +67,11 @@ div .col-md-6 {
     right:0;
 }
 
+.showcase-feature {
+    width: auto;
+    margin: 20px 0;
+}
+
 .feature-thumbnail {
     width: 100%;
     height: 100%;
@@ -56,9 +79,11 @@ div .col-md-6 {
     margin-bottom: 20px;
 }
 
-.showcase-feature {
-    width: auto;
-    margin: 20px 0;
+.information-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
 }
 
 div .jumbotron {
@@ -66,7 +91,11 @@ div .jumbotron {
     height: auto;
     margin: 40px auto;
     padding: 80px;
-    text-align: center
+    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
 }
 
 div .ui.inverted.segment {
@@ -83,7 +112,7 @@ div .btn-primary {
     background-color: #3882f6;
 }
 
-div .ui.inverted.blue.button {
+div .ui.inverted.white.button {
     float: right;
     width: fit-content;
     margin: 5vh auto;
@@ -97,5 +126,10 @@ footer {
     width: 100%;
     background-color: #1f2937;
     height: 100px;
-    text-align: center;
+}
+
+ #copyright-text {
+    width: max-content;
+    margin: 10vh 40vw;
+    color: #e5e7e9;
 }
